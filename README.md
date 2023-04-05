@@ -1,3 +1,5 @@
+This is a course project for ZOOL710  Data Science in R for Biologists
+
 # Overview
 
 A template file and folder structure for a data analysis project/paper done with R/Quarto/Github. The structure promotes a data science pipeline for reproducibility in research. 
@@ -14,6 +16,8 @@ A template file and folder structure for a data analysis project/paper done with
 # History
 
 2023-02-16 First release with Data and Code folders with materials for data cleaning and initial exploration.
+2023-03-03 Changes made to the processingcode.R, processingfile_v1.qmd, and processingfile_v2.qmd.
+2023-03-31 Updates were made to Project 1 which included the processingcode.R, processingfile_v1.qmd, and processingfile_v2.qmd. Project 2 added the Anaylsis_Penguins.R, Analysis_code.qmd, and Analysis_code.html files.
 
 # Acknowledgement
 
@@ -58,7 +62,11 @@ This is a Github template repository. The best way to get it and start using it 
 
 Once you got the repository, you can check out the examples by executing them in order. 
 
-1.  First run the processing code, which will produce the processed data. 
-2.  Then run the analysis scripts, which will take the processed data and produce some results. 
-3.  Then you can run the manuscript, poster and slides example files in any order. Those files pull in the generated results and display them. These files also pull in references from the `bibtex` file and format them according to the CSL style.
+Starting with Project 1, look in Code>Processing_Code:
+1.  First run the processingcode.R, which will produce the processed data. 
+2.  Then you can run the processingfile_v1.qmd and/or processingfile_v2.qmd. **Processingfile_v2 requires edits to be made inthe processingcode.R script**
+
+Starting Project 2, look in the Code>Analysis_code:
+1.  Run the analysis scripts, which will take the processed data and produce some results. 
+2.  Then you can run the manuscript, poster and slides example files in any order. Those files pull in the generated results and display them. These files also pull in references from the `bibtex` file and format them according to the CSL style.
 
