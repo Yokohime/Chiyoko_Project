@@ -16,8 +16,11 @@ A template file and folder structure for a data analysis project/paper done with
 # History
 
 2023-02-16 First release with Data and Code folders with materials for data cleaning and initial exploration.
+
 2023-03-03 Changes made to the processingcode.R, processingfile_v1.qmd, and processingfile_v2.qmd.
-2023-03-31 Updates were made to Project 1 which included the processingcode.R, processingfile_v1.qmd, and processingfile_v2.qmd. Project 2 added the Anaylsis_Penguins.R, Analysis_code.qmd, and Analysis_code.html files.
+
+2023-03-31 Updates were made to Project 1 which included the processingcode.R, processingfile_v1.qmd, and processingfile_v2.qmd. Project 2 added the
+Anaylsis_Penguins.R, Analysis_code.qmd, and Analysis_code.html files.
 
 # Acknowledgement
 
