@@ -1,0 +1,95 @@
+---
+title: "analysis_code"
+author: "Chiyoko Onouye"
+date: "2023-03-31"
+output: html_document
+---
+
+# Analysis script
+
+# 
+
+#this script loads the cleaned data and generated graphs and plots to help visualize #the data to help anwser questions and saves it as Rds file in the Analysis_Code folder
+
+## ---- packages --------
+
+This needs to run to load the R script so we can include the code chunks below.
+
+Note that you can pull in more than one R script if you want.
+
+#load needed packages.
+
+```{r, include=FALSE, cache=FALSE}
+knitr::read_chunk('Anaylsis_Penguins.R')
+```
+
+```{r, packages, message = FALSE, warning = FALSE}
+
+```
+
+## ---- loaddata --------
+
+#load data.
+
+```{r, loaddata}
+
+```
+
+#look at data
+
+```{r, exploredata}
+
+```
+
+##1.Is there a difference between females and males among the three species of penguins?
+
+```{r, penguinsex}
+
+
+```
+
+###Looking at just Adelie Sex comparison
+
+```{r, AdelieSex}
+
+
+```
+
+###Looking at just Gentoo Sex comparison
+
+```{r, GentooSex}
+
+
+```
+
+###Looking at just Chinstrap Sex comparison
+
+```{r, ChinstrapSex}
+
+
+```
+
+##2. Are the 3 species of penguins different?
+
+```{r, PenguinSpecies}
+
+
+```
+
+##3. Is there a difference in penguins between the regions
+
+```{r, PenguinIslands}
+
+
+```
+
+## ---- savedata --------
+
+```{r, finalizedata}
+```
+
+# location to save file
+
+```{r, savedata}
+```
+
